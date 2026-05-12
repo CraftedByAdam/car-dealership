@@ -1,5 +1,6 @@
 package com.pluralsight;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class UserInterface {
@@ -61,6 +62,8 @@ public class UserInterface {
     }
 
     public void processGetByAllVehicleRequest() {
+        List<Vehicle> vehicles = dealership.getAllVehicles();
+        displayVehicles(vehicles);
     }
 
     public void processAddRequest() {
@@ -73,6 +76,14 @@ public class UserInterface {
     private void init() {
         DealershipFileManager dealershipFileManager = new DealershipFileManager();
         this.dealership = dealershipFileManager.getDealership();
+    }
+
+    private void displayVehicles(List<Vehicle> vehicles) {
+        for (Vehicle vehicle : vehicles) {
+            System.out.printf("%d %d %s %s %s %s %d %.2f\n", vehicle.getVin(),  vehicle.getYear(), vehicle.getMake(),
+                    vehicle.getModel(), vehicle.getVehicleType(), vehicle.getColor(), vehicle.getOdometer(), vehicle.getPrice());
+
+        }
     }
 
 }
