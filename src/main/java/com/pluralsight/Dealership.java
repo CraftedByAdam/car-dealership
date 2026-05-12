@@ -67,7 +67,7 @@ public class Dealership {
     }
 
     public List<Vehicle> getAllVehicles() {
-        return null;
+        return this.inventory;
     }
 
     public void addVehicle(Vehicle vehicle) {

@@ -8,7 +8,7 @@ public class DealershipFileManager {
     public Dealership getDealership() {
 
         //declared outside to be used anywhere
-        String fileName = "dealership.txt";
+        String fileName = "dealership.csv";
         Dealership dealership = null;
 
         try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
