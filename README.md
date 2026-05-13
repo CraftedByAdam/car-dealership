@@ -1,19 +1,22 @@
-# Project Title
+# Car Dealership
 
 ## Description of the Project
 
-Briefly describe what this Java console application does. Mention its purpose and who the intended users are. Explain the main functionality and what problems it aims to solve.
+This app helps a sales manager search and manage a vehicle inventory file.
 
 ## User Stories
 
-List the user stories that guided the development of your application. Format these stories as: "As a [type of user], I want [some goal] so that [some reason]."
-
-- As a user, I want to be able to input my data, so that the application can process it accordingly.
-- As a user, I want to receive immediate feedback, so I can understand what to do next.
+- As a user, I want to be able to find a vehicle by its price, so I could shop in a specific price range.
+- As a user, I want the app to load the inventory and save it so I can see it even if I close and restart the app.
+- As a user, I want a main menu so I can search for vehicles
 
 ## Setup
 
-Instructions on how to set up and run the project using IntelliJ IDEA.
+1. Open IntelliJ IDEA.
+2. Open the Car Dealership project
+3. Locate the Main.java file
+4. Right-click the file and select "Run 'Main.main()'"
+
 
 ### Prerequisites
 
@@ -32,38 +35,20 @@ Follow these steps to get your application running within IntelliJ IDEA:
 
 ## Technologies Used
 
-- Java: Mention the version you are using.
-- Any additional libraries or frameworks used in the project.
-
-## Demo
-
-Include screenshots or GIFs that show your application in action. Use tools like [Giphy Capture](https://giphy.com/apps/giphycapture) to record a GIF of your application.
-
-![Application Screenshot](path/to/your/screenshot.png)
-
-## Future Work
-
-Outline potential future enhancements or functionalities you might consider adding:
-
-- Additional feature to be developed.
-- Improvement of current functionalities.
+- Version Java 17.
+- Git/GitHub.
 
 ## Resources
 
 List resources such as tutorials, articles, or documentation that helped you during the project.
 
-- [Java Programming Tutorial](https://www.example.com)
-- [Effective Java](https://www.example.com)
-
-## Team Members
-
-- **Name 1** - Specific contributions or roles.
-- **Name 2** - Specific contributions or roles.
+- [Java Visual Learning Hub](https://raymaroun.github.io/yearup-java-visuals/index.html)
+- [Past Projects](https://github.com/CraftedByAdam)
 
 ## Thanks
 
 Express gratitude towards those who provided help, guidance, or resources:
 
-- Thank you to [Mentor's Name] for continuous support and guidance.
+- Thank you to Raymond for continuous support and guidance.
 - A special thanks to all teammates for their dedication and teamwork.
  
